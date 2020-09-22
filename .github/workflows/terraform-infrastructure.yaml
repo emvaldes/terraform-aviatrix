@@ -1,4 +1,4 @@
-name: GitHub Actions - Terraform Aviatrix
+name: GitHub Actions - Terraform Infrastructure
 on:
 
 ####----------------------------------------------------------------------------
@@ -43,7 +43,7 @@ on:
         required: true
         default: 'warning'
       tags:
-        description: 'Terraform Aviatrix'
+        description: 'Terraform Infrastructure'
 ####----------------------------------------------------------------------------
   push:
     branches: [ master ]
@@ -86,7 +86,7 @@ env:
   troubleshooting: false
 ####----------------------------------------------------------------------------
 jobs:
-  terraform-aviatrix:
+  terraform-infrastructure:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
