@@ -180,11 +180,11 @@ jobs:
           route53_record="${remote_origin##*\/}" ;
           oIFS="${IFS}" ; IFS=$'\n' ;
           declare -a custom_params=(
-              devops_timestamp=${session_timestamp}
-              devops_engineer='Eduardo Valdes'
-              devops_contact=emvaldes@hotmail.com
-              devops_listset='["ami-abc123","ami-def456"]'
-              devops_mapset='{"us-east-1":"ami-abc123","us-east-2":"ami-def456"}'
+              aviatrix_timestamp=${session_timestamp}
+              aviatrix_engineer='Eduardo Valdes'
+              aviatrix_contact=emvaldes@hotmail.com
+              aviatrix_listset='["ami-abc123","ami-def456"]'
+              aviatrix_mapset='{"us-east-1":"ami-abc123","us-east-2":"ami-def456"}'
               route53_record="${route53_record}"
             ) ;
           ## echo -e "\nListing Encoding entries: ..." ;

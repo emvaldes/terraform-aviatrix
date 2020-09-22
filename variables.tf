@@ -2,11 +2,11 @@
 # VARIABLES
 ##################################################################################
 
-variable "custom_timestamp" {}
-variable "custom_engineer" {}
-variable "custom_contact" {}
-variable "custom_listset" {}
-variable "custom_mapset" {}
+variable "aviatrix_timestamp" {}
+variable "aviatrix_engineer" {}
+variable "aviatrix_contact" {}
+variable "aviatrix_listset" {}
+variable "aviatrix_mapset" {}
 
 variable "filebased_parameters" {}
 

@@ -14,24 +14,24 @@ output "cname_record_url" {
   value = "http://${local.route53_record}.${var.domain_name}"
 }
 
-output "custom_timestamp" {
-  value = var.custom_timestamp
+output "aviatrix_timestamp" {
+  value = var.aviatrix_timestamp
 }
 
-output "custom_engineer" {
-  value = var.custom_engineer
+output "aviatrix_engineer" {
+  value = var.aviatrix_engineer
 }
 
-output "custom_contact" {
-  value = var.custom_contact
+output "aviatrix_contact" {
+  value = var.aviatrix_contact
 }
 
-output "custom_listset" {
-  value = var.custom_listset
+output "aviatrix_listset" {
+  value = var.aviatrix_listset
 }
 
-output "custom_mapset" {
-  value = var.custom_mapset
+output "aviatrix_mapset" {
+  value = var.aviatrix_mapset
 }
 
 output "filebased_parameters" {
